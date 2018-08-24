@@ -7,10 +7,10 @@ x2 = input(print('Введите значение x для второй точк
 y2 = input(print('Введите значение y для второй точки: '))
 
 try:
-    float(x1)
-    float(x2)
-    float(y1)
-    float(y2)
+    x1 = float(x1)
+    x2 = float(x2)
+    y1 = float(y1)
+    y2 = float(y2)
     a = (y2 - y1)/(x2 - x1)
     b = y1 - a * x1
     print(f'Уравнение координат: y = {a}*x + {b}')
