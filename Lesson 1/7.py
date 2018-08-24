@@ -12,7 +12,7 @@ try:
     c = float(c)
     if a <= 0 or b <= 0 or c <= 0:
         print('Длины сторон должны быть больше 0, иначе это не треугольник')
-    elif a + b < c or a + c < b or b + c < a:
+    elif a + b <= c or a + c <= b or b + c <= a:
         print('Ни одна из сторон треугольника не может быть больше суммы двух других сторон')
     else:
         if a == b and a == c:
